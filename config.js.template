@@ -2,7 +2,7 @@
 
 const CONFIG = {
     discord: {
-        token: "my_ridiculously_long_token_here?"
+        token: "Mjg2NzM0MjAzNDkwNjY0NDQ4.C51S4g.56nQxQ9jubt8OW4o134V_G62Y2s"
     },
     prefix: "!"
 };
