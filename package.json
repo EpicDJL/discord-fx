@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nicholastay/discord-fx#readme",
   "dependencies": {
+    "heroku-client": "~2.4.3",
     "eris": "github:abalabahaha/eris#6dd10c617751ac4ffff7d4391166870d49b892d1"
   }
 }
