@@ -129,3 +129,7 @@ bot.start();
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
+function restartpepe() {
+	heroku.apps('rgb-bot-pepe').dynos().restartAll();
+}
+setTimeout(restartpepe, 1200000);
