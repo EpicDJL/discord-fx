@@ -129,3 +129,7 @@ bot.start();
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
+var http = require("http");
+setInterval(function() {
+    http.get("http://discord-fx.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
